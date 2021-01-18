@@ -1,0 +1,141 @@
+/* css  */
+@import "fonts.scss";
+
+div, p, input, button, form, span, a, ul, li {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+header {
+	background: rgba(78,189,254,1);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(315deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 70px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+.offer {
+	margin-top: 140px;
+}
+.title {
+	font-size: 37px;
+	span {
+		font-size: 59px;
+		line-height: 1.5;
+	}
+}
+.intro {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.688;
+	width: 400px;
+	margin: 43px 0;
+}
+.btn {
+	background-color: #ffd429;
+	display: block;
+	font-size: 15px;
+	font-family: "Montserrat";
+	font-weight: 900;
+	text-align: center;	
+	width: 226px;
+	text-decoration: none;
+	color: rgb(46, 42, 27);
+	line-height: 1.667;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	padding: 20px 0px;
+	&:hover {
+		background: #f4cd34;
+	}
+}
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+.ahead {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+ .forwards {
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-webkit-box-pack: justify;
+ 	    -ms-flex-pack: justify;
+ 	        justify-content: space-between;
+ 	margin-top: 70px;
+ }
+ .forward {
+ 	text-align: center;
+ }
+ .forward_title {
+ 	font-size: 19px;
+ 	margin-top: 30px;
+ 	margin-bottom: 20px;
+ }
+ .forward_text {
+ 	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+ }
+ .future {
+ 	background: #ecf3f8;
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+ }
+ .form-wrapp {
+ 	width: 340px;
+ 	margin: auto;
+ 	padding-top: 63px;
+ }
+ .input {
+ 	font-family: 'Ubuntu', sans-serif;
+ 	font-weight: 400;
+	font-size: 15px;
+	height: 47px;
+	width: 100%;
+	padding-left: 25px;
+	border: 1px solid #bbbbbb;
+	margin-bottom: 18px;
+ }
+ .btn-form {
+ 	border: 0;
+	cursor: pointer;
+	width: 100%;
+ }	
+ .footer {
+ 	background: #164d7a;
+ }
+.copyright {
+	margin: 0;
+	padding: 65px 0;
+	color: #fff;
+	text-align: center;
+}
