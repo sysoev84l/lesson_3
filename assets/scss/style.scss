@@ -6,8 +6,6 @@ div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
 	padding: 0;
 	margin: 0;
 }
@@ -83,59 +81,61 @@ header {
 	padding-top: 110px;
 	padding-bottom: 110px;
 }
- .forwards {
- 	display: -webkit-box;
- 	display: -ms-flexbox;
- 	display: flex;
- 	-webkit-box-pack: justify;
- 	    -ms-flex-pack: justify;
- 	        justify-content: space-between;
- 	margin-top: 70px;
- }
- .forward {
- 	text-align: center;
- }
- .forward_title {
- 	font-size: 19px;
- 	margin-top: 30px;
- 	margin-bottom: 20px;
- }
- .forward_text {
- 	font-family: 'Ubuntu', sans-serif;
+.forwards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.forward {
+	text-align: center;
+}
+.forward_title {
+	font-size: 19px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.forward_text {
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
- }
- .future {
- 	background: #ecf3f8;
- 	padding-top: 100px;
- 	padding-bottom: 100px;
- }
- .form-wrapp {
- 	width: 340px;
- 	margin: auto;
- 	padding-top: 63px;
- }
- .input {
- 	font-family: 'Ubuntu', sans-serif;
- 	font-weight: 400;
+}
+.future {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.form-wrapp {
+	width: 340px;
+	margin: auto;
+	padding-top: 63px;
+}
+.input {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 	font-size: 15px;
 	height: 47px;
 	width: 100%;
 	padding-left: 25px;
 	border: 1px solid #bbbbbb;
 	margin-bottom: 18px;
- }
- .btn-form {
- 	border: 0;
+}
+.btn-form {
+	border: 0;
 	cursor: pointer;
 	width: 100%;
- }	
- .footer {
- 	background: #164d7a;
- }
+}	
+.footer {
+	background: #164d7a;
+}
 .copyright {
 	margin: 0;
 	padding: 65px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	color: #fff;
 	text-align: center;
 }
