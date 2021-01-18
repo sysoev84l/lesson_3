@@ -1,4 +1,7 @@
-comment="lesson_3"
+CURRENT=`pwd`
+BASENAME=`basename "$CURRENT"`
+
+#comment="lesson_3"
 git add .
-git commit -m $comment
+git commit -m $BASENAME
 git push -u origin main
