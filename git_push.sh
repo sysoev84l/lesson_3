@@ -1,4 +1,4 @@
-comment="lesson_2"
+comment="lesson_3"
 git add .
 git commit -m $comment
 git push -u origin main
