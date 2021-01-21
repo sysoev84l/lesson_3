@@ -46,7 +46,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 header {
   background: #4ebdfe;
@@ -60,7 +63,7 @@ header {
   color: #fff; }
 
 .offer {
-  margin-top: 140px; }
+  /* margin-top: 140px; */ }
 
 .title {
   font-size: 37px; }
@@ -122,6 +125,15 @@ header {
   font-weight: 400;
   font-size: 15px; }
 
+.forward_time {
+  width: 295px; }
+
+.forward_travel {
+  width: 274px; }
+
+.forward_value {
+  width: 300px; }
+
 .future {
   background: #ecf3f8;
   padding-top: 100px;
@@ -148,11 +160,11 @@ header {
   width: 100%; }
 
 .footer {
-  background: #164d7a; }
+  background: #164d7a;
+  padding: 65px 0; }
 
 .copyright {
   margin: 0;
-  padding: 65px 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #fff;
